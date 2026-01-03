@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        /* If the site is working, the screen WILL turn RED */
-        body { background-color: red; margin: 0; padding: 0; display: flex; justify-content: center; }
+        /* This makes the background invisible so only the ad shows */
+        body, html { 
+            margin: 0; 
+            padding: 0; 
+            background-color: rgba(0,0,0,0); /* Transparent */
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+        }
     </style>
 </head>
 <body>
-    <h1 style="color: white;">IF YOU SEE THIS, IT WORKS!</h1>
-    
     <script type="text/javascript">
 	atOptions = {
 		'key' : '778662ef8a93c22817dab81e3f5d0aa9',
